@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Davidesk_Cyphers.jnlp">
+  <information>
+    <title>Davidesk_Cyphers</title>
+    <vendor>dano2432</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Davidesk_Cyphers.jar" size="22886" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Davidesk_Cyphers" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="main.java.davidesk_cyphers.Davidesk_Cyphers"  name="Davidesk_Cyphers" />
+  <update check="always"/>
+</jnlp>
